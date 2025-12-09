@@ -175,7 +175,7 @@ body{
   padding: 20px;
   border
 
-  .hero {
+.hero {
   background-image: url('../images/IMG_5218.jpeg');   
   background-size: cover;
   background-position: center;
@@ -186,9 +186,13 @@ body{
   position: relative;
 }
 
-  .course-icon {
-  width: 80px;
-  height: auto;
-  margin-top: 20px;
+.explore-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
+
 
