@@ -13,3 +13,12 @@ document.querySelectorAll('.btn').forEach(btn=>{
   btn.addEventListener('mouseenter', ()=>btn.classList.add('hover'));
   btn.addEventListener('mouseleave', ()=>btn.classList.remove('hover'));
 });
+
+function openModal() {
+  document.getElementById("imageModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("imageModal").style.display = "none";
+}
+
