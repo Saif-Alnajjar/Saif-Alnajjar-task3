@@ -188,10 +188,12 @@ body{
 
 .explore-icon {
   width: 32px;
-  height: auto;
+  height: 32px;
+  object-fit: contain;
   display: block;
-  margin: 0 0 8px 0;
+  margin: 0 auto 8px auto;
 }
+
 
 
 
