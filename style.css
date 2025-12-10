@@ -186,19 +186,12 @@ body{
   position: relative;
 }
 
-
-
-
-
 .explore-icon {
-  width: 80px;
+  width: 32px;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 0 8px 0;
 }
 
-.card.feature h3,
-.card.feature p {
-  font-size: 12px;      /* نص صغير يناسب حجم الصورة */
-}
+
 
