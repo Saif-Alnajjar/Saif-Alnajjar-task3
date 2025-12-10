@@ -186,13 +186,22 @@ body{
   position: relative;
 }
 
-.explore-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
+
+
+.card.feature {
+  width: 80px;          /* نفس عرض الصورة تقريبًا */
+  text-align: center;   /* يخلي النص تحت الصورة */
 }
 
+.explore-icon {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.card.feature h3,
+.card.feature p {
+  font-size: 12px;      /* نص صغير يناسب حجم الصورة */
+}
 
