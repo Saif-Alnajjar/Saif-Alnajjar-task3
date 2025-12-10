@@ -188,10 +188,7 @@ body{
 
 
 
-.card.feature {
-  width: 80px;          /* نفس عرض الصورة تقريبًا */
-  text-align: center;   /* يخلي النص تحت الصورة */
-}
+
 
 .explore-icon {
   width: 80px;
